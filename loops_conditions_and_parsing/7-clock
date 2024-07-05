@@ -8,9 +8,9 @@ h="0"
 while [ $h -lt 13 ]; do
   echo "$var:" "$h"
   s="1"
- while [ $s -lt 60 ]; do	
+  while [ $s -lt 60 ]; do	
 	 echo "$s"
-	 ((s++))
-		
- ((i++))
+	 ((S++))
+ done		
+ ((h++))
 done
