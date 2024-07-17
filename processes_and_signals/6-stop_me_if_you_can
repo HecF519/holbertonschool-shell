@@ -2,5 +2,5 @@
 #kills the infinity and beyond program using sigkill signal
 
 #Terminate the infinate process
-pkill -STOP -f"4-to_infinity_and_beyond"
+pkill -STOP -f "bash ./4-to_infinity_and_beyond"
 ^C 
